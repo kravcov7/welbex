@@ -1,0 +1,26 @@
+.сontacts {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  align-items: center;
+}
+
+.phone {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #e4e5ea;
+}
+
+.icons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 32px;
+  list-style-type: none;
+}

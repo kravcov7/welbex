@@ -1,0 +1,88 @@
+.footer {
+  min-height: 315px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-height: 160px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 52px;
+}
+
+.link {
+  list-style-type: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #e4e5ea;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #656566;
+}
+
+.menu {
+  display: flex;
+  gap: 98px;
+}
+
+.copyright {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  text-align: right;
+
+  color: #e4e5ea;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact {
+  text-align: right;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #E4E5EA;
+}
+
+.tel {
+  font-weight: 500;
+}
+
+.address {
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}

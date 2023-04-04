@@ -1,0 +1,100 @@
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0;
+
+  color: #e4e5ea;
+}
+
+.subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+
+  color: #e4e5ea;
+}
+
+.cards {
+  display: grid;
+  align-self: flex-end;
+  grid-template-columns: 135px 135px;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-rows: 1fr 1fr;
+  column-gap: 31px;
+  row-gap: 30px;
+  margin: 0;
+  padding: 40px 0 61px 0;
+  margin: 0;
+  /* padding: 0; */
+  text-align: right;
+}
+
+.card {
+  list-style-type: none;
+}
+
+.promoBlock {
+  max-width: 391px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #e4e5ea;
+  display: flex;
+  flex-direction: column;
+}
+
+.promoTitle {
+  margin: 0;
+  text-align: right;
+}
+
+.titleCard,
+.descriptionCard {
+  margin: 0;
+}
+
+.button {
+  justify-content: center;
+  font-family: "Inter", Verdana, sans-serif;
+  color: #e4e5ea;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 262px;
+  height: 61px;
+  background-color: #4077f3;
+  transition: opacity 0.4s linear;
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.tittleBlock {
+    max-width: 300px;
+}
+
+.subtitle {
+    max-width: 240px;
+
+}
