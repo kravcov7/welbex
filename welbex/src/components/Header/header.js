@@ -37,9 +37,8 @@ function Header() {
       <div className={styles.mainBlock}>
         <div className={styles.logoBlock}>
           <a href="&">
-            <img alt="Viber" src={logo} />
+            <img alt="logo" src={logo} />
           </a>
-
           <p className={styles.logoText}>
             крупный интегратор CRM в Росcии и ещё 8 странах
           </p>
@@ -56,7 +55,9 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <Contacts />
+      <div className={styles.contacts}>
+        <Contacts />
+      </div>
     </header>
   );
 }

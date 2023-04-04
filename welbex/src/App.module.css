@@ -1,7 +1,7 @@
 .app {
-  z-index: -222;
+  z-index: -2;
   background: #1e1e1e;
-  /* background: transparent; */
+  height: 100vh;
   position: relative;
 }
 
@@ -33,7 +33,6 @@
     top: 291px;
   }
 }
-
 
 .red {
   z-index: -1;

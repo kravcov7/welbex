@@ -69,9 +69,9 @@ function Footer() {
         </div>
         <div className={styles.wrapperMenu}>
           <h2 className={styles.title}>Меню</h2>
-          <ul className={styles.wrapper}>
+          <ul className={styles.containerMenu}>
             {MENU.map(({ id, name }) => (
-              <li className={styles.link} key={id}>
+              <li className={styles.linkMenu} key={id}>
                 {name}
               </li>
             ))}
@@ -85,7 +85,7 @@ function Footer() {
           <h3 className={styles.address}>Москва, Путевой проезд 3с1, к 902</h3>
         </div>
         <div className={styles.copyright}>
-          <p className={styles.copyrightE}>©WELBEX 2022. Все права защищены.</p>
+          <p className={styles.copyrightE}>&copy;WELBEX 2022. Все права защищены.</p>
           <p className={styles.copyrightErr}>Политика конфиденциальности</p>
         </div>
       </div>

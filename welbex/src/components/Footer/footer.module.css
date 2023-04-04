@@ -1,12 +1,22 @@
 .footer {
-  min-height: 315px;
+  min-height: 275px;
   display: flex;
   justify-content: space-between;
-  max-width: 1140px;
+  max-width: 1160px;
+  padding: 0 10px 20px;
   margin: 0 auto;
 }
 
-.wrapper {
+@media screen and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    background: #000;
+    padding: 35px 10px 20px;
+  }
+}
+
+.wrapper,
+.containerMenu {
   margin: 0;
   padding: 0;
   display: flex;
@@ -17,7 +27,17 @@
   column-gap: 52px;
 }
 
-.link {
+@media screen and (max-width: 900px) {
+  .containerMenu {
+    max-height: 180px;
+  }
+  .wrapper {
+    max-height: 100px;
+  }
+}
+
+.link,
+.linkMenu {
   list-style-type: none;
 
   font-family: "Inter";
@@ -27,6 +47,18 @@
   line-height: 19px;
 
   color: #e4e5ea;
+}
+
+@media screen and (max-width: 900px) {
+  .linkMenu {
+    max-width: 123px;
+  }
+  .link,
+  .linkMenu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
 .title {
@@ -47,6 +79,17 @@
   gap: 98px;
 }
 
+@media screen and (max-width: 900px) {
+  .menu {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
 .copyright {
   font-family: "Montserrat";
   font-style: normal;
@@ -59,6 +102,12 @@
   color: #e4e5ea;
 }
 
+@media screen and (max-width: 900px) {
+  .copyright {
+    text-align: left;
+  }
+}
+
 .contacts {
   display: flex;
   flex-direction: column;
@@ -67,13 +116,19 @@
 
 .contact {
   text-align: right;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 
-color: #E4E5EA;
+  color: #e4e5ea;
+}
+
+@media screen and (max-width: 900px) {
+  .contact {
+    text-align: left;
+  }
 }
 
 .tel {
@@ -82,7 +137,26 @@ color: #E4E5EA;
 
 .address {
   font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 900px) {
+  .tel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .copyrightE,
+  .copyrightErr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
