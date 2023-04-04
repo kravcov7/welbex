@@ -66,7 +66,7 @@ function Main() {
           ))}
         </ul>
         <ul className={styles.cardsMobile}>
-          {CARDSMOBILE.map(({ id, title, description }) => (
+          {CARDSMOBILE.map(({ id, title }) => (
             <li key={id} className={styles.card}>
               <h3 className={styles.titleCard}><span>—</span> {title}</h3>
             </li>

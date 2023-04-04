@@ -49,7 +49,6 @@
   row-gap: 30px;
   margin: 0;
   padding: 40px 0 61px 0;
-  margin: 0;
   text-align: right;
 }
 
@@ -110,6 +109,9 @@
   opacity: 0.8;
   cursor: pointer;
 }
+.cardsMobile {
+  display: none;
+}
 
 @media screen and (max-width: 700px) {
   .main {
@@ -130,9 +132,9 @@
   .cardsMobile {
     display: grid;
     align-self: flex-start;
-    grid-template-columns: 140px 140px;
+    grid-template-columns: 130px 130px;
     grid-template-rows: 1fr 1fr;
-    column-gap: 10px;
+    column-gap: 2px;
     row-gap: 14px;
     margin: 0;
     padding: 40px 0 61px 0;
@@ -142,18 +144,14 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-    position: relative
+    position: relative;
+      /* text-transform: uppercase; */
   }
 
-  .cardsMobile::before {
-    position: absolute;
-    width: 10px;
-    height: 8px;
-    background: #fff;
-    top: 0;
-    left: 0;
-
+  .card {
+    min-width: 150px;
   }
+
   .titleCard span {
     background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
     -webkit-background-clip: text;
@@ -165,6 +163,22 @@
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
+  }
+
+  .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .subtitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
@@ -194,8 +208,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 36px;
+  line-height: 44px;
 
   background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
   -webkit-background-clip: text;
