@@ -1,4 +1,4 @@
-#[Deploy](https://welbex-s73d.vercel.app/).
+# [Deploy](https://welbex-s73d.vercel.app/).
 
 ## Available Scripts
 
