@@ -36,8 +36,13 @@ function Header() {
     <header className={styles.header}>
       <div className={styles.mainBlock}>
         <div className={styles.logoBlock}>
-          <img src={styles.logo} alt="logo" scc={logo} />
-          <p className={styles.logoText}>крупный интегратор CRM в Росcии и ещё 8 странах</p>
+          <a href="&">
+            <img alt="Viber" src={logo} />
+          </a>
+
+          <p className={styles.logoText}>
+            крупный интегратор CRM в Росcии и ещё 8 странах
+          </p>
         </div>
         <nav className={styles.menu}>
           <ul className={styles.wrapper}>

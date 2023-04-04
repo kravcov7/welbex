@@ -1,5 +1,6 @@
 import styles from "./contacts.module.css";
-import telegram from "../../images/telegram.svg";
+import Ttt from "../../images/telegram.svg";
+// import Teleg from "/images/telegram.svg";
 import viber from "../../images/viber.svg";
 import whatsapp from "../../images/whatsapp.svg";
 
@@ -7,17 +8,17 @@ const ICONS = [
   {
     id: 1,
     name: "Telegram",
-    src: "../../images/telegram.svg",
+    src:'',
   },
   {
     id: 2,
-    name: "",
+    name: "viber",
     scr: "",
   },
   {
     id: 3,
     name: "",
-    scr: "",
+    scr: {whatsapp},
   },
 ];
 
@@ -37,11 +38,7 @@ function Contacts() {
           </li>
         ))}
 
-        {/* <li className="contacts__social-icon">
-          <a href="&">
-            <img alt="Telegram" src={telegram} />
-          </a>
-        </li> */}
+    
         <li className="contacts__social-icon">
           <a href="&">
             <img alt="Viber" src={viber} />
