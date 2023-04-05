@@ -89,6 +89,7 @@
 }
 
 .button {
+  z-index: 33;
   justify-content: center;
   font-family: "Inter", Verdana, sans-serif;
   color: #e4e5ea;
