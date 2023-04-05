@@ -1,5 +1,5 @@
 .app {
-  z-index: -2;
+  z-index: -1;
   background: #1e1e1e;
   height: 100vh;
   position: relative;
@@ -91,7 +91,7 @@
   }
 }
 
-.purple-light {
+.purpleBall {
   z-index: -1;
   position: absolute;
   width: 259px;
@@ -104,7 +104,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .purple-light {
+  .purpleBall {
     left: 258px;
     top: 162px;
   }
