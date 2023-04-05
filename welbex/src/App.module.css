@@ -1,7 +1,11 @@
-.app {
+.wrapper {
   z-index: -1;
   background: #1e1e1e;
   position: relative;
+}
+
+.app {
+  overflow: hidden;
 }
 
 .purple {

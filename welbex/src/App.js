@@ -5,8 +5,8 @@ import styles from "./App.module.css";
 
 function App() {
   return (
-    <>
-      <div className={styles.app}>
+    <div className={styles.app}>
+      <div className={styles.wrapper}>
         <div className={styles.purple}></div>
         <div className={styles.yellow}></div>
         <div className={styles.red}></div>
@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 
